@@ -19,17 +19,41 @@
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-    /*color: white;
-    height: 30px;
-    padding: 10px 0;*/
 }
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
-    /*color: white;
-    font-family: "montserrat";
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 50px;
-    text-align: center;*/
+}
+
+/*h4.homepage-blog {
+  color: #bfbfbf;
+}
+
+a.homepage-blog {
+  color: #45ac9d;
+}*/
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
 }
