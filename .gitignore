@@ -2,3 +2,5 @@
 .DS_Store
 wp-config.php
 .htaccess
+accelerate.sql
+accelerate.sql_.zip
