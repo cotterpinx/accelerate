@@ -57,3 +57,27 @@ a.homepage-blog {
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Study Styles */
+aside.case-study-sidebar {
+float: left;
+width: 30%;
+}
+
+.case-study-subtitle {
+  color: Gray;
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+
+div.case-study-images {
+  float:left;
+  width 60%;
+  margin: 40px 0 0 20px;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
