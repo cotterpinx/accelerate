@@ -12,7 +12,45 @@
 
 @import url("../accelerate-theme/style.css");
 
-/* highight menu item for current page */
+/* Social Media Buttons styles */
+
+.social-media-navigation li {
+  list-style: none;
+  display: inline;
+}
+
+.social-media-navigation li a {
+	display:     inline-block;
+	width:       25px;
+	height:      25px;
+	text-indent: -99999em;
+}
+
+
+.social-media-navigation a[href*="twitter.com"] {
+  background-position: 0 -25px;
+	background: url(img/twitter-icon.png) no-repeat center 0;
+}
+
+.social-media-navigation a[href*="linkedin.com"] {
+  background-position: 0 -25px;
+  background: url(img/linkedin-icon.png) no-repeat center 0;
+}
+
+.social-media-navigation a[href*="facebook.com"] {
+  background-position: 0 -25px;
+  background: url(img/facebook-icon.png) no-repeat center 0;
+}
+
+
+/* Generic page styles */
+#content {
+  width: 60%;
+  margin: auto;
+}
+
+
+/* highlight menu item for current page */
 li.current-menu-item a {
 font-weight: bold;
 }
@@ -61,6 +99,70 @@ font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+
+
+/* Contact Page Styles */
+
+.page-content {
+  font-family: 'Montserrat';
+}
+
+.page-content + p {
+  font-size: smaller;
+}
+
+.nf-form-title {
+  display: none;
+}
+.nf-form-fields-required {
+	display: none;
+}
+
+
+.nf-field-container.textbox-container.label-above {
+    display: block;
+    float: left;
+    clear: initial;
+    width: 49%;
+}
+
+.nf-field-container.email-container.label-above {
+    display: block;
+    float: right;
+    clear: initial;
+    width: 49%;
+}
+
+
+
+.nf-field .nf-field-label label {
+  font-family: 'Montserrat';
+  font-weight: lighter ;
+  font-size: smaller;
+}
+
+#nf-field-1-wrap {
+  margin-right: 20px;
+}
+
+#nf-field-4-wrap {
+  float:right;
+  width: 30%;
+}
+
+#nf-field-4 {
+  height: 40px;
+  width: 100%;
+}
+
+.contact-button {
+  background: none repeat scroll 0 0 #45ac9d;
+  font-family: 'Montserrat';
+  color: #FFF;
+  font-size: smaller;
+}
+
 
 /* Case Study Styles */
 aside.case-study-sidebar {
