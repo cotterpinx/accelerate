@@ -44,9 +44,17 @@
 
 
 /* Generic page styles */
-#content {
+.page-content {
   width: 60%;
   margin: auto;
+}
+
+.page-content h2 {
+  font-family: 'Montserrat';
+}
+
+.page-content  p {
+  font-size: smaller;
 }
 
 
@@ -104,14 +112,6 @@ font-weight: bold;
 
 /* Contact Page Styles */
 
-.page-content {
-  font-family: 'Montserrat';
-}
-
-.page-content + p {
-  font-size: smaller;
-}
-
 .nf-form-title {
   display: none;
 }
@@ -134,11 +134,9 @@ font-weight: bold;
     width: 49%;
 }
 
-
-
 .nf-field .nf-field-label label {
   font-family: 'Montserrat';
-  font-weight: lighter ;
+  font-weight: normal;
   font-size: smaller;
 }
 
